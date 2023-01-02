@@ -1,0 +1,15 @@
+name: BlockNewJoins
+main: es.angelillo15.bnj.BNJLoader
+version: '${version}'
+description: 'Block new players from joining the server'
+author: 'Nookure Team'
+website: 'nookure.com'
+api-version: 1.13
+commands:
+  bnj:
+    description: 'Main command'
+    usage: '/bnj'
+    aliases: [blocknewjoins]
+    permission: bnj.admin
+    permission-message: '&7You do not have permission to do that!'
+    default: op
