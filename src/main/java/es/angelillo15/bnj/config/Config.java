@@ -60,7 +60,8 @@ public class Config {
     }
 
     public static String get(String path){
-        return TextUtils.colorize(ConfigLoader.getConfig().getConfig().getString(path));
+        return TextUtils.colorize(ConfigLoader.getConfig().getConfig().getString(path)
+                .replace("{prefix}", getPrefix()));
     }
 
     public static Boolean getBoolean(String path){

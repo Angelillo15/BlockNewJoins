@@ -14,7 +14,7 @@ Config:
   enable: true # Choose to enable or disable the new players kick.
   enableRedirectServer: true # Choose if new players will be redirected to another server. If false, players will be kicked.
   timeBeforeKick: 5 # Time in seconds before new players are disconnected/redirected.
-  redirectServer: hub # Which server the new players will be redirected.
+  redirectServer: backend1 # Which server the new players will be redirected.
   disableMovement: true # Toggle if new players be able to move before they are disconnected/redirected.
   enableBlindness: true # Toggle if new players will have the blindness effect.
   enableTitle: true # Toggle if new players will receive a title.
@@ -35,7 +35,7 @@ Messages:
     - '&c█████████'
     - ''
   warningOldPlayers:
-    - '{prefix} &7This server doesn\'t allow new players to join, but you can join because you are an old player.'
+    - "{prefix} &7This server doesn't allow new players to join, but you can join because you are an old player."
   title:
     title: '&6&lWARNING'
-    subtitle: '&7This server doesn\'t allow new players to join.'
+    subtitle: "&7This server dont allow new players to join."
